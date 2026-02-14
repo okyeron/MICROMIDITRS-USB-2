@@ -1,24 +1,20 @@
-# MICROMIDITRS-USB
- 
+# MICROMIDITRS-USB-2 
 
-A DIY USBMIDI to TRS MIDI adapter for Adafruit QTPy.
-
-The SAMD21 QTPy variant is recommended. Code for other variants will be released here over time.
+A USBMIDI to TRS MIDI adapter based on the rp2040 microcontroller
 
 ### Features
 
-* Auto sensing TRS MIDI Type-A/Type-B input with [LPZW](http://leipzigwest.org/) Auto Crossover circuit
-* Switch for TRS MIDI Type-A/Type-B output
-* Activity LEDs for input/output
-* USB-C connector on QTPy
+* Auto sensing TRS MIDI Type-A/Type-B Input with [LPZW](http://leipzigwest.org/) Auto Crossover circuit
+* TRS MIDI Type-A Output
+* Activity LEDs for MIDI input/output
+* USB-C
 
-![<#MMTRS-USB.jpeg#>](<MMTRS-USB.jpeg>)
 
 ### Firmware
 
-Firmware is available as a pre-compiled UF2 file. See [Releases page](https://github.com/okyeron/MICROMIDITRS-USB/releases) for download
+Firmware is available as a pre-compiled UF2 file. See [Releases page](https://github.com/okyeron/MICROMIDITRS-USB-2/releases) for download
 
-To load the firmware, connect the QTPy to your computer and then double click the reset button on the QTPy to drop it into bootloader mode. This should now show you a QTPY_BOOT drive on your computer desktop. Drag the UF2 file to QTPY_BOOT and it should dismount/reboot and come back as the `MMTRS-USB`.
+To load the firmware, connect the device to your computer and then hold the BOOT and RESET buttons on the MMTRS-USB and then release the RESET button before the BOOT button - this will drop it into bootloader mode. This should now show you a RPI_RP2 drive on your computer desktop. Drag the UF2 file to RPI_RP2 and it should dismount/reboot and come back as the `MMTRS-USB2`.
 
 
 
