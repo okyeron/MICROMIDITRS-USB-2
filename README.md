@@ -14,7 +14,9 @@ A USBMIDI to TRS MIDI adapter based on the rp2040 microcontroller
 
 Firmware is available as a pre-compiled UF2 file. See [Releases page](https://github.com/okyeron/MICROMIDITRS-USB-2/releases) for download
 
-To load the firmware, connect the device to your computer and then hold the BOOT and RESET buttons on the MMTRS-USB and then release the RESET button before the BOOT button - this will drop it into bootloader mode. This should now show you a RPI_RP2 drive on your computer desktop. Drag the UF2 file to RPI_RP2 and it should dismount/reboot and come back as the `MMTRS-USB2`.
+To load the firmware, connect the device to your computer and then press and hold the BOOT and RESET buttons, then release the RESET button before the BOOT button - this will drop it into bootloader mode. This should now show you a RPI_RP2 drive on your computer desktop. Alternately you can hold down the BOOT button while plugging it into USB.  
+
+Drag the UF2 file to RPI_RP2 to load the firmware and the device should dismount/reboot.   
 
 
 
